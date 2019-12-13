@@ -1,7 +1,6 @@
 {
     "version": 2,
     "name": "color board",
-    "alias": "colorboard.now.sh",
     "builds": [
         { "src": "package.json", "use": "@now/static-build" }
     ],
