@@ -3,7 +3,7 @@
     "name": "color board",
     "alias": "colorboard.now.sh",
     "builds": [
-        { "src": "./package.json", "use": "@now/static-build" }
+        { "src": "package.json", "use": "@now/static-build" }
     ],
     "routes": [
         {"src": "^/static/(.*)", "dest": "/static/$1"},
